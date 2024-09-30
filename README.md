@@ -1,24 +1,5 @@
-# README
+# Basic Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This small training project was created following the [The Ruby on Rails Guides: Getting Started](https://guides.rubyonrails.org/getting_started.html) up to section 9.2.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In the course of this little practice the blog app was deployed using the services of railway.com.
