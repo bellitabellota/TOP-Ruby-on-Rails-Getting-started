@@ -10,6 +10,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -28,3 +29,35 @@ input, button, textarea, select {
   width: 100%;
   object-fit: cover;
 }
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.63);
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
