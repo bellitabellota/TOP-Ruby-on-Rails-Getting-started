@@ -20,3 +20,11 @@ img {
 input, button, textarea, select {
   font: inherit;
 }
+
+/* end of reset */
+
+.header_image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
