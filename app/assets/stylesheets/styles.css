@@ -56,8 +56,56 @@ nav a {
 
 }
 
-nav a:hover {
-  color: white;
+a:hover {
   text-decoration: underline;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+.index-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0 0px 0;
+}
+
+h1 {
+  margin-left: 15px;
+}
+.new-link {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #12374b;
+}
+
+.new-link:hover {
+  text-decoration: none;
+  color: #23719b;
+  text-shadow: 1px 1px 3px black;
+}
+
+.article-card {
+  border: 3px solid #317aa5;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 7px 0;
+}
+
+h2 a {
+  color: #12374b;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: #23719b;
+}
+
+h2 {
+  margin: 5px 0;
+  font-size: 20px;
 }
 
