@@ -22,3 +22,11 @@ The article#edit page:
 
 
 
+
+To open this project locally on your computer, after cloning the project from git and entering the repository folder the following commands need to be run:
+
+- rails db:migrate
+
+- rails db:seed
+
+
