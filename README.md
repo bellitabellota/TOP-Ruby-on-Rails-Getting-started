@@ -4,7 +4,7 @@ This small training project was created following the [The Ruby on Rails Guides:
 
 As extra credit the CSS style was added.
 
-In the course of this little practice the blog app was deployed using the services of railway.com.
+In the course of this little practice the [blog app](https://top-rails-blog-production.up.railway.app/) was deployed using the services of railway.com.
 ## Screenshots
 
 The article#index page / homepage:
