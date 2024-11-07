@@ -71,11 +71,12 @@ main {
   padding: 15px 0 0px 0;
 }
 
-.form-heading {
-  padding: 15px 0 0px 0;
+.index-heading-container h1 {
+  margin-top: 0;
 }
 
 h1 {
+  margin-top: 15px;
   margin-left: 15px;
 }
 
@@ -140,7 +141,7 @@ input, textarea {
   justify-content: center;
 }
 
-.submit > input {
+.submit > input, .show a {
   padding: 5px 10px;
   background-color: #2c86b6;
   border: none;
@@ -148,7 +149,34 @@ input, textarea {
   color: white;
 }
 
-.submit > input:hover {
+.submit > input:hover, .show a:hover, .article-link-container a:hover {
   background-color: #349cd4;
+}
+
+.show p {
+  white-space: pre-wrap;
+}
+
+.form-heading > h2 {
+  margin-top: 15px;
+  padding: 10px 15px 0 0;
+}
+
+.article-link-container {
+  display:flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.show h1 {
+  margin-left:0; 
+}
+
+.article-heading {
+  padding: 10px 0;
+}
+
+.comment-container > p {
+  white-space: normal;
 }
 
